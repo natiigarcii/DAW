@@ -19,28 +19,43 @@
 
 	<h2>Página con el formulario de registro como nuevo usuario</h2>
 	<form method="post">
-  Nombre de usuario:<br>
-  <input type="text" name="usuario"><br>
-  Contraseña:<br>
-  <input type="password" name="pwd"><br>
-  Repite la contraseña:<br>
-  <input type="password" name="2pwd"><br>
-  Email:<br>
-  <input type="email" name="email"><br>
-  Sexo:<br>
-  <input type="radio" name="sexo" value="masculino" checked>Masculino
-  <input type="radio" name="sexo" value="femenino">Femenino<br>
-  Fecha de nacimiento:<br>
-  <input type="date" name="fecha_nacimiento"><br>
-  Ciudad:<br>
-  <input type="text" name="ciudad"><br>
-  País de residencia:<br>
-  <input type="text" name="pais"><br>
-  Foto de perfil:
-  <input type="file" name="foto_perfil"><br>
-  <input type="submit" value="Enviar">
-   
-</form>
+    <div class="container">
+      <!-- A ver, he metido esto en un div para que después
+en css pongamos que en este contender los objetos tienen que estar
+en tal posicion, de momento dejo los br para que sea mas visual
+PERO SE DEBEN ELIMINAR --> 
+      Nombre de usuario:<br>
+      <input type="text" name="usuario" required><br>
+
+      Contraseña:<br>
+      <input type="password" name="pwd" required><br>
+
+      Repite la contraseña:<br>
+      <input type="password" name="2pwd" required><br>
+
+      Email:<br>
+      <input type="email" name="email" required><br>
+
+      Sexo:<br>
+      <input type="radio" name="sexo" value="masculino" checked>Masculino
+      <input type="radio" name="sexo" value="femenino">Femenino<br>
+
+      Fecha de nacimiento:<br>
+      <input type="date" name="fecha_nacimiento" required><br>
+
+      Ciudad:<br>
+      <input type="text" name="ciudad"  required><br>
+
+      País de residencia:<br>
+      <input type="text" name="pais" required><br>
+
+      Foto de perfil:
+      <input type="file" name="foto_perfil" ><br>
+
+      <input type="submit" value="Enviar">
+      <input type="submit" value="Cancelar" onclick="window.location.href='P2_1.html'">
+   </div>
+  </form>
 <footer>
     <p>TITLE &copy; 2017 </p>
     <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
