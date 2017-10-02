@@ -1,0 +1,52 @@
+
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Página de búsqueda</title>
+</head>
+<body>
+<header id="cabecera-global">
+	<div id="logo-cabecera" >
+		<a href="Inicio.html"
+		class="main-logo"
+		title="Logo de la web. Si haces clic sobre el, irás a inicio">
+		LOGO	
+		</a>
+	</div>	
+	
+	<form style="display: inline;">
+			<label><b>Nombre de usuario</b></label>		 
+			<input type="text" placeholder="Enter username" name="nombre" required>
+		 	
+		 	<label><b>Contraseña</b></label>
+			<input type="password" placeholder="Enter password" name="psw" required>
+
+			<button type="submit">Login</button>
+			<input type="checkbox" checked="checked"> Remember me
+
+			   		
+    		<span class="psw"><a href="#">¿Has olvidado tu Contraseña?</a></span>
+    		<a href="Registro.html"> Registrarse </a>
+	</form>
+	
+
+</header> 
+
+<h2>Búsqueda</h2>	
+		<form>
+		  <p>Titulo:
+		  <input type="search" name="titulo"></p>
+		  <p>Fecha
+		  <input type="search" name="fecha"></p>
+		 <p> País
+		  <input type="search" name="pais"></p>
+		</form>		
+	<input type="submit" value="Buscar" onclick="window.location.href='Resultado_busqueda.html'"> 
+	<input type="submit" value="Atrás" onclick="window.location.href='Inicio.html'"> 
+<footer>
+    <p>TITLE &copy; 2017 </p>
+    <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
+  </footer>
+</body>
+</html> 
