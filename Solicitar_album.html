@@ -57,20 +57,20 @@
 </table>
 
 <form action="Solicitar_album_respuesta.html">
-		  <p>Nombre:
-		  <input type="text" maxlength="200" required name="nombre" placeholder="su nombre"></p>
+		  <p><label for="nombre">Nombre:</label> 
+		  <input type="text" maxlength="200" required name="nombre" id="nombre" placeholder="su nombre"></p>
 
-		  <p>Titulo del album
-		  <input type="search" maxlength="200" required name="titulo" placeholder="que lo describa"></p>
+		  <p><label for="titulo">Titulo del album</label> 
+		  <input type="search" maxlength="200" required name="titulo" id="titulo" placeholder="que lo describa"></p>
 
-		 <p> Texto adicional
-		  <textarea maxlength="4000" cols="100" rows="5" name="tecto-adicional" placeholder="dedicatoria, descripción de su contenido, etc."> </textarea></p>
+		 <p> <label for="texto-adicional">Texto adicional</label> 
+		  <textarea maxlength="4000" cols="100" rows="5" name="texto-adicional" id="texto-adicional" placeholder="dedicatoria, descripción de su contenido, etc."> </textarea></p>
 
-		  <p>Correo electrónico
-		  <input type="email" maxlength="200" required name="email" placeholder="tu email"></p>
+		  <p><label for="email">Correo electrónico</label> 
+		  <input type="email" maxlength="200" required name="email" id="email" placeholder="tu email"></p>
 
-		  <p>Dirección
-		  	<input type="text" name="direccion" placeholder="calle">
+		  <p><label for="direccion">Dirección</label> 
+		  	<input type="text" name="direccion" id="direccion" placeholder="calle">
 		  	<input type="text" name="numero" placeholder="numero" > 
 		  	<input type="text" name="cp" placeholder="CP" >
 
@@ -89,34 +89,34 @@
 
 		    </p>
 
-		    <p>Teléfono 
-		    	<input type="text" name="telefono">
+		    <p><label for="telefono">Teléfono </label> 
+		    	<input type="text" name="telefono" id="telefono"> 
 		    </p>
 
-		  	<p> Color de portada
-		 		 <input type="Color" name="color"></p>
+		  	<p> <label for="color">Color de portada</label> 
+		 		 <input type="Color" name="color" id="color"></p>
 
-		 	<p> Número de copias
-				<input type="number" name="cantidad" min="1" max="20"></p>
+		 	<p><label for="cantidad"> Número de copias
+				<input type="number" name="cantidad" id="cantidad" min="1" max="20"></p>
 
 			
 
-     		<p>Resolución de impresión
-     	 		<input type="number" min="150" max="900" step="150" value="150" >dpi
+     		<p><label for="resolucion">Resolución de impresión</label> 
+     	 		<input type="number" name="resolucion" id="resolucion" min="150" max="900" step="150" value="150" >dpi
      		</p>
 
-     		<p>Album de PI
-     	 		<select name="album-pi">
+     		<p><label>Album de PI</label> 
+     	 		<select name="album-pi" id="album-pi">
      	 			<option>Mis albumes</option>
      	 		</select>
      	 	</p>
 
-     	 	<p>Fecha de recepción
-     	 		<input type="date" name="fecha-recepcion">
+     	 	<p><label for="fecha-recepcion">Fecha de recepción</label> 
+     	 		<input type="date" name="fecha-recepcion" id="fecha-recepcion">
      	 	</p>
 
-     	 	<p>Impresión a color?
-     	 		<input type="checkbox" name="color" value="color">color
+     	 	<p><label>Impresión a color?
+     	 		<input type="checkbox" name="color"  value="color">color
      	 		<input type="checkbox" name="color" value="blancoynegro">blanco y negro
      	 	</p>
 
