@@ -15,14 +15,14 @@
 		</a>
 	</div>	
 	
-	<form style="display: inline;">
-			<label><b>Nombre de usuario</b></label>		 
-			<input type="text" placeholder="Enter username" name="nombre" required>
+	<form style="display: inline;" action="Usuario_registrado.html">
+			<label for="nombre"><b>Nombre de usuario</b></label>		 
+			<input type="text" placeholder="Enter username" name="nombre" id="nombre" required>
 		 	
-		 	<label><b>Contraseña</b></label>
-			<input type="password" placeholder="Enter password" name="psw" required>
+		 	<label for="psw"><b>Contraseña</b></label>
+			<input type="password" placeholder="Enter password" name="psw" id="psw" required>
 
-			<button type="submit">Login</button>
+			<input type="submit" name="enviar-login" value="Login">
 			<input type="checkbox" checked="checked"> Remember me
 
 			   		
@@ -30,17 +30,18 @@
     		<a href="Registro.html"> Registrarse </a>
 	</form>
 	
+	
 
 </header> 
 
 <h2>Búsqueda</h2>	
 		<form>
-		  <p>Titulo:
-		  <input type="search" name="titulo"></p>
-		  <p>Fecha
-		  <input type="search" name="fecha"></p>
-		 <p> País
-		  <input type="search" name="pais"></p>
+		  <p><label for="titulo">Titulo:</label>
+		  <input type="search" name="titulo" id="titulo"></p>
+		  <p><label for="fecha">Fecha</label>
+		  <input type="search" name="fecha" id="fecha"></p>
+		  <p><label for="pais">País</label>
+		  <input type="search" name="pais" id="pais"></p>
 		</form>		
 	<input type="submit" value="Buscar" onclick="window.location.href='Resultado_busqueda.html'"> 
 	<input type="submit" value="Atrás" onclick="window.location.href='Inicio.html'"> 
