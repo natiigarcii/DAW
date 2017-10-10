@@ -1,0 +1,238 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+a:link{	color: white/*#3F51B5*/; }
+a:visited{ color: white/*#536DFE*/;}
+a:hover{ color: #8C9EFF;}
+
+
+
+
+#primera-foto{
+	margin-left: 0%;
+}
+
+img{
+	margin-bottom: 10%;
+}
+
+#cuerpo p{
+	margin-top: -6%;
+}
+
+article{
+	display: inline-block;
+	margin-left: 7%;
+}
+
+
+
+
+/*cabecera de aqui para bajo*/
+
+.formulario-vertical label {
+	float: left;
+	display: block; 
+	width: 200px;
+} 
+.formulario-vertical input {
+	float: none; 
+	display: inline;	
+}
+
+input {
+	background-color: #E8EAF6;
+}
+
+#container-logo{
+	float: left;
+}
+
+#container-busqueda{
+	padding-top: 1%;
+	float: left;
+	margin-left: 6%;
+	display: inline-block;
+	width:50%;
+
+
+}
+
+
+#avanzada{
+	margin-left: 53%;	
+	font-size: 14px;
+}
+
+
+
+#container-busqueda input[type=text]{
+	width: 70%;
+	margin-bottom: 1%;
+	
+	border-radius: 5px;
+	border: 0;
+	height: 2em;
+	line-height: normal; 
+	padding-left: 3%;
+	
+	
+}
+
+#container-registro input[type=text], #container-registro input[type=password]{
+	padding-left: 3%;
+	border-radius: 2px;
+	height: 40%;
+	border: 0;
+}
+/*esto me deja modificar el placerholder de un input*/
+
+#container-busqueda input[type=text]::-webkit-input-placeholder, #container-registro input[type=text]::-webkit-input-placeholder,
+#container-registro input[type=password]::-webkit-input-placeholder {
+letter-spacing: 1px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12px;
+
+ }
+
+
+#nombre, #psw{
+	margin-top: 2%;
+	padding-bottom: -2%;
+	margin-bottom: 2%;	
+	width: 80%;
+}
+
+#container-registro{
+float: right;
+width: 500px;
+height: 100px;
+font-size: 14px;
+display: inline-block;
+
+
+}
+
+ #remember label{
+ 	font-size: 12px;
+ 	color: black;
+ }
+
+
+input[type=checkbox] {
+	font-size: 12px;
+	
+
+}
+
+.forgot{
+	font-size: 12px;
+
+
+}
+
+
+
+#container-usuario{
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-top: 2%;
+	
+}
+#container-psw{
+	width: 200px;
+	float:left;
+	margin-top: 2%;
+
+}
+
+
+
+#container-registro label{
+display: block;
+font-size: 13px;
+font-family: Roboto;
+
+
+
+}
+
+label [type="checkbox"] {
+	width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+
+#accion{
+	background-color: #A9CBEE;
+	/*background-color: rgb(54,183,198);*/
+	border-radius: 15px;
+	
+}
+
+
+#accion p{
+	font-family:Helvetica;
+	font-size: 20px;
+}
+
+#registrarse-login{
+	float: right;
+	margin-right: 4%;
+	margin-top: 2%;
+}
+
+#login {
+	background-color: #536DFE; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 3%;
+    float: left;
+    cursor: pointer;
+}
+
+#login:hover {
+	background:-webkit-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	background-color:#1e62d0;
+}
+
+body {
+	background-color: #424242;
+	margin: 20px;
+	padding: 20px;
+	color:#E8EAF6;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
+header {	
+
+	background-color: rgba(158, 158, 158,0.5) ;		
+	border-radius: 5px;
+	
+    /*position: fixed; CON ESTO FIJO EL MENU ARRIBA*/
+
+	color:#ECEFF1;	
+	display: inline-block;
+	margin-top: -3%;
+	height: 100px;
+	width: 106%;
+	margin-left: -3%;
+	letter-spacing: 1px;
+
+
+
+}
