@@ -24,7 +24,7 @@
 			<form action="./resultado_busqueda.html" method="get">
 				<i class="material-icons">search</i>
 				<input type="text" name="busqueda" id="busqueda" placeholder="Fotos, personas o grupos">
-  				<input type="submit" value="Enviar" />
+  				<input type="submit" id="enviar" value="Enviar" />
   			</form>
   			<a id="avanzada" href="./busqueda_avanzada.html">Búsqueda avanzada</a>
 		</div>
@@ -39,13 +39,16 @@
 				<div id="container-psw">					
 				 	<label for="psw"><b>Contraseña</b></label>
 					<input type="password" placeholder="Enter password" name="psw" id="psw" required>
-					<label for="remember">	<input type="checkbox" checked="checked" id="remember"> Remember me</label>
+					<label for="remember" >	
+						<input type="checkbox" checked="checked" id="remember"> 
+						<span id="remember-id">Remember me </span>
+					</label>
 					<a class="forgot" id="has-olvidado" href="#">¿Has olvidado tu Contraseña?</a>
 				</div>
 
 					<input type="submit" name="enviar-login" value="Login" id="login">
 		    		
-		    		<a class="forgot" id="registrarse-login" href="Registro.html" > Registrarse </a>
+		    		<a id="texto-registro" id="registrarse-login" href="Registro.html" > Registrarse </a>
 		    	
 			</form>
 		</div>
@@ -58,7 +61,7 @@
 
 		
 	   
-	 	<h3 id="cabeceraFotos"> Últimas fotos </h3> 
+	 	<h3 id="cabecera-fotos"> Últimas fotos </h3> 
 	 		<article id="primera-foto" class="foto">
 			<a href="Detalle_foto.html"><img src="img/foto1.jpg" alt="imagen no encontrada" style="width:175px;height:175px;" ></a>  		
 			<p><strong>Titulo:</strong> inserte</p>

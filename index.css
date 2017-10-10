@@ -1,12 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 
-a:link{	color: white/*#3F51B5*/; }
-a:visited{ color: white/*#536DFE*/;}
-a:hover{ color: #8C9EFF;}
+a:link{	color: #FFC107/*#3F51B5*/; text-decoration: none; }
+a:visited{ color: #FFCB30/*#536DFE*/; text-decoration: none;}
+a:hover{ color: #705600; text-decoration: none;}
 
 
 
+
+#cabecera-fotos{
+
+}
 
 #primera-foto{
 	margin-left: 0%;
@@ -49,7 +53,7 @@ input {
 }
 
 #container-busqueda{
-	padding-top: 1%;
+	 padding-top: 1%;
 	float: left;
 	margin-left: 6%;
 	display: inline-block;
@@ -60,7 +64,7 @@ input {
 
 
 #avanzada{
-	margin-left: 53%;	
+	margin-left: 56%;	
 	font-size: 14px;
 }
 
@@ -78,8 +82,14 @@ input {
 	
 	
 }
+#container-registro input[type=password]{
+	padding-left: 3%;
+	border-radius: 2px;
+	height: 20px;
+	border: 0;
+}
 
-#container-registro input[type=text], #container-registro input[type=password]{
+#container-registro input[type=text] {
 	padding-left: 3%;
 	border-radius: 2px;
 	height: 40%;
@@ -92,6 +102,7 @@ input {
 letter-spacing: 1px;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 12px;
+
 
  }
 
@@ -109,14 +120,17 @@ width: 500px;
 height: 100px;
 font-size: 14px;
 display: inline-block;
+margin-right: 3%;
 
 
 }
 
- #remember label{
- 	font-size: 12px;
- 	color: black;
+#rremember-id{
+ 	font-size: 10px;
+ 	
+
  }
+
 
 
 input[type=checkbox] {
@@ -125,8 +139,28 @@ input[type=checkbox] {
 
 }
 
+#texto-registro:hover{
+	background-color: #BA8E0B;
+	border-color: #BA8E0B;
+
+}
+
+#texto-registro{
+	font-size: 13px;
+	background-color: #E0B535;
+  color: white;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+border-radius: 4px;
+border-color: #E0B535; 
+
+}
+
 .forgot{
-	font-size: 12px;
+	font-size: 11px;
 
 
 }
@@ -186,33 +220,55 @@ label [type="checkbox"] {
 	float: right;
 	margin-right: 4%;
 	margin-top: 2%;
+
+}
+
+#enviar:hover{
+	background-color: #BA8E0B;
+}
+
+#enviar{
+	background-color: #E0B535; /* Green */
+    border: none;
+    color: #E8EAF6;;
+    padding: 6px 10px;
+   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;    
+    
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 2%;
 }
 
 #login {
-	background-color: #536DFE; /* Green */
+	background-color: #E0B535; /* Green */
     border: none;
-    color: white;
-    padding: 10px 32px;
+    color: #FAFAFA;
+    padding: 10px 28px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    margin-top: 3%;
+    margin-top: 4%;
     float: left;
     cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 2%;
 }
 
 #login:hover {
 	background:-webkit-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
 	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
-	background-color:#1e62d0;
+	background-color:#BA8E0B;
 }
 
 body {
-	background-color: #424242;
+	background-color: #212121;
 	margin: 20px;
 	padding: 20px;
-	color:#E8EAF6;
+	color:#FAFAFA;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
@@ -220,12 +276,12 @@ body {
 
 header {	
 
-	background-color: rgba(158, 158, 158,0.5) ;		
+	background-color: #828282 ;		
 	border-radius: 5px;
 	
     /*position: fixed; CON ESTO FIJO EL MENU ARRIBA*/
 
-	color:#ECEFF1;	
+	color:#FAFAFA;	
 	display: inline-block;
 	margin-top: -3%;
 	height: 100px;
