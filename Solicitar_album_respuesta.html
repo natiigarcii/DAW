@@ -8,18 +8,29 @@
 	<meta name="keywords" content="HTML5, web" /> 
 	<meta name="description" content="Practica DAW" /> 
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
 <body>
 	<header id="cabecera-global">
-		<div id="logo-cabecera" >
-			<a href="Inicio.html"
-			class="main-logo"
-			title="Logo de la web. Si haces clic sobre el, irás a inicio">
-			LOGO	
+		<div id="container-logo">
+			<a id="logo" href="Inicio.html" title="Logo de la web. Si haces clic sobre el, irás a inicio">
+			<i class="material-icons">home</i>
 			</a>
+		</div>	
+
+		<div id="container-busqueda">			
+			<form action="./resultado_busqueda.html" method="get">
+				<i class="material-icons">search</i>
+				<input type="text" name="busqueda" id="busqueda" placeholder="Fotos, personas o grupos">
+  				<input type="submit" value="Enviar" />
+  			</form>
+  			<a id="avanzada" href="./busqueda_avanzada.html">Búsqueda avanzada</a>
 		</div>
-	</header>
+
+		
+		
+	</header> 
 	<main>
 		<h1>Solicitud de albúm registrada</h1>
 		<p>
