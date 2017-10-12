@@ -30,9 +30,40 @@ article, figure{
 }
 
 
-
+ i {
+	font-size: 15px !important;
+}
 
 /*cabecera de aqui para bajo*/
+
+#nombre-usuario{
+	
+	margin-top: -3em;
+	font-size: 14px;
+}
+
+#img-usuario{
+	width: 3em;
+	height: 3em;
+	
+	
+	margin-left: 30em;
+}
+
+#container-usuario{
+	display: inline-block;
+}
+
+.formulario-avanzada label{
+	float: left;
+	display: block; 
+	width: 60px;
+}
+
+.formulario-avanzada input{
+	float: none; 
+	display: inline;
+}
 
 .formulario-vertical label {
 	float: left;
@@ -82,6 +113,54 @@ input {
 	
 	
 }
+th {
+    background-color: #BA8E0B;
+    color: white;
+}
+
+tr:hover {background-color: #828282}
+
+table {
+	border: 1px solid black;
+	text-align: left;
+	margin-left: 30em;
+
+
+
+}
+
+td{
+	background-color: 
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+footer{
+	margin-top: 8em;
+}
+
+#sexo{
+	display: inline-block;
+}
+
+.formulario-vertical textarea{
+	padding-left: 1%;
+	border-radius: 2px;
+	border: 0;
+}
+
+
+.formulario-vertical input[type=text], .formulario-vertical input[type=password], .formulario-vertical input[type=email], .formulario-vertical input[type=date]{
+	padding-left: 1%;
+	border-radius: 2px;
+	width: 15em;
+	height: 2em;
+	border: 0;
+}
+
 #container-registro input[type=password]{
 	padding-left: 3%;
 	border-radius: 2px;
@@ -222,6 +301,27 @@ label [type="checkbox"] {
 	margin-top: 2%;
 
 }
+
+.enviar-registro:hover{
+	background-color:  #936F02;
+}
+
+.enviar-registro{
+	background-color: #BA8E0B; 
+	border: none;
+    color: #E8EAF6;;
+    padding: 6px 10px;
+   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;    
+    
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 2%;
+}
+
+
 
 #enviar:hover{
 	background-color: #BA8E0B;

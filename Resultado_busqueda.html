@@ -8,7 +8,7 @@
 
 </head>
 <body>
-<header id="cabecera-global">
+	<header id="cabecera-global">
 		<div id="container-logo">
 			<a id="logo" href="Inicio.html" title="Logo de la web. Si haces clic sobre el, irás a inicio">
 			<i class="material-icons">home</i>
@@ -19,11 +19,34 @@
 			<form action="./resultado_busqueda.html" method="get">
 				<i class="material-icons">search</i>
 				<input type="text" name="busqueda" id="busqueda" placeholder="Fotos, personas o grupos">
-  				<input type="submit" value="Enviar" />
+  				<input type="submit" id="enviar" value="Buscar" />
   			</form>
   			<a id="avanzada" href="./busqueda_avanzada.html">Búsqueda avanzada</a>
 		</div>
 
+		<div id="container-registro">
+			<form  action="Usuario_registrado.html">	
+
+				<div id="container-usuario">
+					<label for="nombre"><b>Nombre de usuario</b></label>		 
+					<input type="text" placeholder="Enter username" name="nombre" id="nombre" required>
+				</div>
+				<div id="container-psw">					
+				 	<label for="psw"><b>Contraseña</b></label>
+					<input type="password" placeholder="Enter password" name="psw" id="psw" required>
+					<label for="remember" >	
+						<input type="checkbox" checked="checked" id="remember"> 
+						<span id="remember-id">Remember me </span>
+					</label>
+					<a class="forgot" id="has-olvidado" href="#">¿Has olvidado tu Contraseña?</a>
+				</div>
+
+					<input type="submit"  name="enviar-login" value="Login" id="login">
+		    		
+		    		<a id="texto-registro" id="registrarse-login" href="Registro.html" > Registrarse </a>
+		    	
+			</form>
+		</div>
 		
 		
 	</header> 
@@ -55,7 +78,7 @@
 		<p><strong>País:</strong> inserte </p>
 		Subida hace 4 minutos			
 	</figure>
-	<input type="submit" value="Atrás" onclick="window.location.href='Busqueda_avanzada.html'"> 
+	<input type="submit" class="enviar-registro" value="Atrás" onclick="window.location.href='Busqueda_avanzada.html'"> 
 	<footer>
 	    <p>TITLE &copy; 2017 </p>
 	    <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
