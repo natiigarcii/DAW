@@ -1,0 +1,394 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+a:link{	color: #FFC107/*#3F51B5*/; text-decoration: none; }
+a:visited{ color: #FFCB30/*#536DFE*/; text-decoration: none;}
+a:hover{ color: #705600; text-decoration: none;}
+
+
+
+
+#cabecera-fotos{
+
+}
+
+#primera-foto{
+	margin-left: 0%;
+}
+
+img{
+	margin-bottom: 10%;
+}
+
+#cuerpo p{
+	margin-top: -6%;
+}
+
+article, figure{
+	display: inline-block;
+	margin-left: 7%;
+}
+
+
+ i {
+	font-size: 15px !important;
+}
+
+/*cabecera de aqui para bajo*/
+
+#nombre-usuario{
+	
+	margin-top: -3em;
+	font-size: 14px;
+}
+
+#img-usuario{
+	width: 3em;
+	height: 3em;
+	
+	
+	margin-left: 30em;
+}
+
+#container-usuario{
+	display: inline-block;
+}
+
+.formulario-avanzada label{
+	float: left;
+	display: block; 
+	width: 60px;
+}
+
+.formulario-avanzada input{
+	float: none; 
+	display: inline;
+}
+
+.formulario-vertical label {
+	float: left;
+	display: block; 
+	width: 200px;
+} 
+.formulario-vertical input {
+	float: none; 
+	display: inline;	
+}
+
+input {
+	background-color: #E8EAF6;
+}
+
+#container-logo{
+	float: left;
+}
+
+#container-busqueda{
+	 padding-top: 1%;
+	float: left;
+	margin-left: 6%;
+	display: inline-block;
+	width:50%;
+
+
+}
+
+
+#avanzada{
+	margin-left: 56%;	
+	font-size: 14px;
+}
+
+
+
+#container-busqueda input[type=text]{
+	width: 70%;
+	margin-bottom: 1%;
+	
+	border-radius: 5px;
+	border: 0;
+	height: 2em;
+	line-height: normal; 
+	padding-left: 3%;
+	
+	
+}
+th {
+    background-color: #BA8E0B;
+    color: white;
+}
+
+tr:hover {background-color: #828282}
+
+table {
+	border: 1px solid black;
+	text-align: left;
+	margin-left: 30em;
+
+
+
+}
+
+td{
+	background-color: 
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+footer{
+	margin-top: 8em;
+}
+
+#sexo{
+	display: inline-block;
+}
+
+.formulario-vertical textarea{
+	padding-left: 1%;
+	border-radius: 2px;
+	border: 0;
+}
+
+
+.formulario-vertical input[type=text], .formulario-vertical input[type=password], .formulario-vertical input[type=email], .formulario-vertical input[type=date]{
+	padding-left: 1%;
+	border-radius: 2px;
+	width: 15em;
+	height: 2em;
+	border: 0;
+}
+
+#container-registro input[type=password]{
+	padding-left: 3%;
+	border-radius: 2px;
+	height: 20px;
+	border: 0;
+}
+
+#container-registro input[type=text] {
+	padding-left: 3%;
+	border-radius: 2px;
+	height: 40%;
+	border: 0;
+}
+/*esto me deja modificar el placerholder de un input*/
+
+#container-busqueda input[type=text]::-webkit-input-placeholder, #container-registro input[type=text]::-webkit-input-placeholder,
+#container-registro input[type=password]::-webkit-input-placeholder {
+letter-spacing: 1px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 12px;
+
+
+ }
+
+
+#nombre, #psw{
+	margin-top: 2%;
+	padding-bottom: -2%;
+	margin-bottom: 2%;	
+	width: 80%;
+}
+
+#container-registro{
+float: right;
+width: 500px;
+height: 100px;
+font-size: 14px;
+display: inline-block;
+margin-right: 3%;
+
+
+}
+
+#rremember-id{
+ 	font-size: 10px;
+ 	
+
+ }
+
+
+
+input[type=checkbox] {
+	font-size: 12px;
+	
+
+}
+
+#texto-registro:hover{
+	background-color: #BA8E0B;
+	border-color: #BA8E0B;
+
+}
+
+#texto-registro{
+	font-size: 13px;
+	background-color: #E0B535;
+  color: white;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+border-radius: 4px;
+border-color: #E0B535; 
+
+}
+
+.forgot{
+	font-size: 11px;
+
+
+}
+
+
+
+#container-usuario{
+	width: 200px;
+	height: 50px;
+	float: left;
+	margin-top: 2%;
+	
+}
+#container-psw{
+	width: 200px;
+	float:left;
+	margin-top: 2%;
+
+}
+
+
+
+#container-registro label{
+display: block;
+font-size: 13px;
+font-family: Roboto;
+
+
+
+}
+
+label [type="checkbox"] {
+	width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:0;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  *overflow: hidden;
+}
+
+#accion{
+	background-color: #A9CBEE;
+	/*background-color: rgb(54,183,198);*/
+	border-radius: 15px;
+	
+}
+
+
+#accion p{
+	font-family:Helvetica;
+	font-size: 20px;
+}
+
+#registrarse-login{
+	float: right;
+	margin-right: 4%;
+	margin-top: 2%;
+
+}
+
+.enviar-registro:hover{
+	background-color:  #936F02;
+}
+
+.enviar-registro{
+	background-color: #BA8E0B; 
+	border: none;
+    color: #E8EAF6;;
+    padding: 6px 10px;
+   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;    
+    
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 2%;
+}
+
+
+
+#enviar:hover{
+	background-color: #BA8E0B;
+}
+
+#enviar{
+	background-color: #E0B535; /* Green */
+    border: none;
+    color: #E8EAF6;;
+    padding: 6px 10px;
+   
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;    
+    
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 2%;
+}
+
+#login {
+	background-color: #E0B535; /* Green */
+    border: none;
+    color: #FAFAFA;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 4%;
+    float: left;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 2%;
+}
+
+#login:hover {
+	background:-webkit-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	background-color:#BA8E0B;
+}
+
+body {
+	background-color: #212121;
+	margin: 20px;
+	padding: 20px;
+	color:#FAFAFA;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+
+header {	
+
+	background-color: #828282 ;		
+	border-radius: 5px;
+	
+    /*position: fixed; CON ESTO FIJO EL MENU ARRIBA*/
+
+	color:#FAFAFA;	
+	display: inline-block;
+	margin-top: -3%;
+	height: 100px;
+	width: 106%;
+	margin-left: -3%;
+	letter-spacing: 1px;
+
+
+
+}

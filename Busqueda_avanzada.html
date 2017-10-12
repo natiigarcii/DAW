@@ -4,38 +4,32 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Página de búsqueda</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 <body>
 <header id="cabecera-global">
-	<div id="logo-cabecera" >
-		<a href="Inicio.html"
-		class="main-logo"
-		title="Logo de la web. Si haces clic sobre el, irás a inicio">
-		LOGO	
-		</a>
-	</div>	
-	
-	<form style="display: inline;" action="Usuario_registrado.html">
-			<label for="nombre"><b>Nombre de usuario</b></label>		 
-			<input type="text" placeholder="Enter username" name="nombre" id="nombre" required>
-		 	
-		 	<label for="psw"><b>Contraseña</b></label>
-			<input type="password" placeholder="Enter password" name="psw" id="psw" required>
+    <div id="container-logo">
+      <a id="logo" href="Inicio.html" title="Logo de la web. Si haces clic sobre el, irás a inicio">
+      <i class="material-icons">home</i>
+      </a>
+    </div>  
 
-			<input type="submit" name="enviar-login" value="Login">
-			<input type="checkbox" checked="checked"> Remember me
+    <div id="container-busqueda">     
+      <form action="./resultado_busqueda.html" method="get">
+        <i class="material-icons">search</i>
+        <input type="text" name="busqueda" id="busqueda" placeholder="Fotos, personas o grupos">
+          <input type="submit" id="enviar" value="Buscar" />
+        </form>
+        <a id="avanzada" href="./busqueda_avanzada.html">Búsqueda avanzada</a>
+    </div>
 
-			   		
-    		<span class="psw"><a href="#">¿Has olvidado tu Contraseña?</a></span>
-    		<a href="Registro.html"> Registrarse </a>
-	</form>
-	
-	
-
-</header> 
+    
+  </header> 
 
 <h2>Búsqueda</h2>	
-		<form>
+		<form class="formulario-avanzada">
 		  <p><label for="titulo">Titulo:</label>
 		  <input type="search" name="titulo" id="titulo"></p>
 		  <p><label for="fecha">Fecha</label>
@@ -43,8 +37,8 @@
 		  <p><label for="pais">País</label>
 		  <input type="search" name="pais" id="pais"></p>
 		</form>		
-	<input type="submit" value="Buscar" onclick="window.location.href='Resultado_busqueda.html'"> 
-	<input type="submit" value="Atrás" onclick="window.location.href='Inicio.html'"> 
+	<input type="submit" class="enviar-registro" value="Buscar" onclick="window.location.href='Resultado_busqueda.html'"> 
+	<input type="submit" class="enviar-registro" value="Atrás" onclick="window.location.href='Inicio.html'"> 
 <footer>
     <p>TITLE &copy; 2017 </p>
     <p>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
