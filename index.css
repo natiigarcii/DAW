@@ -1,10 +1,29 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 
-a:link{	color: #FFC107/*#3F51B5*/; text-decoration: none; }
-a:visited{ color: #FFCB30/*#536DFE*/; text-decoration: none;}
-a:hover{ color: #705600; text-decoration: none;}
+a:link{	color: #0d47a1/*#3F51B5*/; text-decoration: none; }
+a:visited{ color: #002171/*#536DFE*/; text-decoration: none;}
+a:hover{ color: #5472d3; text-decoration: none;}
 
+
+input:focus{
+	border-color: 5472d3;
+}
+
+header input{
+	background-color: #f8fdff;
+}
+
+img{
+	border-radius: 8px;
+}
+
+select {
+	-webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+   height: 29px;
+}
 
 #label-nombre label{
 	margin-top: 1.8%;
@@ -20,11 +39,19 @@ a:hover{ color: #705600; text-decoration: none;}
 }
 
 
+#cabecera-fotos nth-child(a3 + b){
+	margin-left: 0%;
+
+}
+
+
+
+
 #img-logo{
-	width: 10%;
-	height: 14%;
-	position: fixed;
-	margin-top: 0.15%;
+	width: 14%;
+	height: 18%;
+	position: absolute;
+	margin-top: -0.3%;
 	padding-left: 0.5%;
 
 
@@ -35,20 +62,28 @@ a:hover{ color: #705600; text-decoration: none;}
 }
 
 #primera-foto{
-	margin-left: 0%;
+	
 }
 
 img{
 	margin-bottom: 10%;
+	width: 13em;
+	height: 13em;
+
 }
 
 #cuerpo p{
 	margin-top: -6%;
 }
 
+
+
 article, figure{
 	display: inline-block;
-	margin-left: 7%;
+	margin-left: 3%;
+	height: 120%;
+	margin-top: 3%;
+
 }
 
 
@@ -80,10 +115,23 @@ article, figure{
 	margin-left: 30em;
 }
 
+.formulario-vertical{
+
+}
+
+
 #container-usuario{
 	display: inline-block;
 }
 
+article{
+	border-style: solid;
+	border-color: #c5cae9;
+	padding: 2%;
+	background-color: #c5cae9;
+	border-radius: 5%;
+
+}
 .formulario-avanzada label{
 	float: left;
 	display: block; 
@@ -106,7 +154,10 @@ article, figure{
 }
 
 input {
-	background-color: #E8EAF6;
+	background-color: #c5cae9;
+	
+	border: 1px solid #9499b7;
+
 }
 
 #container-logo{
@@ -238,8 +289,8 @@ margin-left: -3%;
 
 }
 
-#rremember-id{
- 	font-size: 10px;
+#remember-id{
+ 	font-size: 11px;
  	
 
  }
@@ -253,14 +304,14 @@ input[type=checkbox] {
 }
 
 #texto-registro:hover{
-	background-color: #BA8E0B;
-	border-color: #BA8E0B;
+	background-color: #002171;
+	border-color: #002171;
 
 }
 
 #texto-registro{
 	font-size: 13px;
-	background-color: #E0B535;
+	background-color: #0d47a1;
   color: white;
   padding: 2px 6px 2px 6px;
   border-top: 1px solid #CCCCCC;
@@ -268,7 +319,7 @@ input[type=checkbox] {
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
 border-radius: 4px;
-border-color: #E0B535; 
+border-color: #0d47a1; 
 
 }
 
@@ -341,7 +392,7 @@ label [type="checkbox"] {
 }
 
 .enviar-registro{
-	background-color: #BA8E0B; 
+	background-color: #0d47a1; 
 	border: none;
     color: #E8EAF6;;
     padding: 6px 10px;
@@ -358,11 +409,11 @@ label [type="checkbox"] {
 
 
 #enviar:hover{
-	background-color: #BA8E0B;
+	background-color: #002171;
 }
 
 #enviar{
-	background-color: #E0B535; /* Green */
+	background-color: #0d47a1; /* Green */
     border: none;
     color: #E8EAF6;;
     padding: 6px 10px;
@@ -377,9 +428,9 @@ label [type="checkbox"] {
 }
 
 #login {
-	background-color: #E0B535; /* Green */
+	background-color: #0d47a1; /* Green */
     border: none;
-    color: #FAFAFA;
+    color: #ffffff;
     padding: 10px 28px;
     text-align: center;
     text-decoration: none;
@@ -395,32 +446,32 @@ label [type="checkbox"] {
 #login:hover {
 	background:-webkit-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
 	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
-	background-color:#BA8E0B;
+	background-color:#002171;
 }
 
 body {
-	background-color: #212121;
+	background-color: #f8fdff;
 	margin: 20px;
 	padding: 20px;
-	color:#FAFAFA;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#000000;
+	font-family: Roboto-bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 }
 
 
 header {	
 
-	background-color: #828282 ;		
-	border-radius: 5px;
+	background-color: #c5cae9 ;		
+	border-radius: 2%;
 	
     /*position: fixed; CON ESTO FIJO EL MENU ARRIBA*/
 
-	color:#FAFAFA;	
+	color:#000000;	
 	display: inline-block;
-	margin-top: -3%;
+	margin-top: -3.15%;
 	height: 100px;
-	width: 106%;
-	margin-left: -3%;
+	width: 106.3%;
+	margin-left: -3.15%;
 	letter-spacing: 1px;
 
 
