@@ -160,6 +160,13 @@ input {
 
 }
 
+textarea {
+	background-color: #c5cae9;
+	
+	border: 1px solid #9499b7;
+
+}
+
 #container-logo{
 	float: left;
 }
@@ -233,6 +240,7 @@ footer{
 	padding-left: 1%;
 	border-radius: 2px;
 	border: 0;
+
 }
 
 
