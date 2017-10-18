@@ -1,13 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 
+@media (min-width: 1200px){
+
+background-color: #black ;	
+
+}
+
 a:link{	color: #0d47a1/*#3F51B5*/; text-decoration: none; }
 a:visited{ color: #002171/*#536DFE*/; text-decoration: none;}
 a:hover{ color: #5472d3; text-decoration: none;}
 
 
 input:focus{
-	border-color: 5472d3;
+	border-color: #5472d3;
 }
 
 header input{
@@ -48,8 +54,8 @@ select {
 
 
 #img-logo{
-	width: 14%;
-	height: 18%;
+	width: 12%;
+	height: 16%;
 	position: absolute;
 	margin-top: -0.3%;
 	padding-left: 0.5%;
@@ -67,8 +73,8 @@ select {
 
 img{
 	margin-bottom: 10%;
-	width: 13em;
-	height: 13em;
+	width: 14.3em;
+	height: 14.3em;
 
 }
 
@@ -104,7 +110,7 @@ article, figure{
 #nombre-usuario{
 	
 	margin-top: -3em;
-	font-size: 14px;
+	font-size: 1em;
 }
 
 #img-usuario{
@@ -127,7 +133,7 @@ article, figure{
 article{
 	border-style: solid;
 	border-color: #c5cae9;
-	padding: 2%;
+	padding: 1%;
 	background-color: #c5cae9;
 	border-radius: 5%;
 
@@ -135,7 +141,7 @@ article{
 .formulario-avanzada label{
 	float: left;
 	display: block; 
-	width: 60px;
+	width: 5%;
 }
 
 .formulario-avanzada input{
@@ -146,7 +152,7 @@ article{
 .formulario-vertical label {
 	float: left;
 	display: block; 
-	width: 200px;
+	width: 15%;
 } 
 .formulario-vertical input {
 	float: none; 
@@ -186,7 +192,7 @@ textarea {
 
 #avanzada{
 	margin-left: 56%;	
-	font-size: 14px;
+	font-size: 1em;
 }
 
 
@@ -195,12 +201,12 @@ textarea {
 	width: 70%;
 	margin-bottom: 1%;
 	
-	border-radius: 5px;
+	border-radius: 5%;
 	border: 0;
 	height: 2em;
 	line-height: normal; 
 	padding-left: 3%;
-	
+	margin-top: 1.5%;
 	
 }
 th {
@@ -224,7 +230,7 @@ td{
 }
 
 th, td {
-    padding: 15px;
+    padding: 5%;
     text-align: left;
 }
 
@@ -238,7 +244,7 @@ footer{
 
 .formulario-vertical textarea{
 	padding-left: 1%;
-	border-radius: 2px;
+	border-radius: 3%;
 	border: 0;
 
 }
@@ -246,7 +252,7 @@ footer{
 
 .formulario-vertical input[type=text], .formulario-vertical input[type=search], .formulario-vertical input[type=password], .formulario-vertical input[type=email], .formulario-vertical input[type=date]{
 	padding-left: 1%;
-	border-radius: 2px;
+	border-radius: 10%;
 	width: 15em;
 	height: 2em;
 	border: 0;
@@ -254,14 +260,16 @@ footer{
 
 #container-registro input[type=password]{
 	padding-left: 3%;
-	border-radius: 2px;
-	height: 20px;
+	border-radius: 5%;
+	padding-bottom: 3.4%;
 	border: 0;
+	text-align: left;
+	margin-top: 2.2%;
 }
 
 #container-registro input[type=text] {
 	padding-left: 2%;
-	border-radius: 2px;
+	border-radius: 5%;
 	height: 40%;
 	border: 0;
 }
@@ -269,10 +277,10 @@ footer{
 
 #container-busqueda input[type=text]::-webkit-input-placeholder, #container-registro input[type=text]::-webkit-input-placeholder,
 #container-registro input[type=password]::-webkit-input-placeholder {
-letter-spacing: 1px;
+letter-spacing: 0.11em;
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 12px;
-
+font-size: 0.8em;
+vertical-align: middle;
 
  }
 
@@ -286,9 +294,9 @@ font-size: 12px;
 
 #container-registro{
 float: right;
-width: 500px;
-height: 100px;
-font-size: 14px;
+width: 35%;
+
+font-size: 1em;
 display: inline-block;
 margin-right: 0.5%;
 margin-left: -3%;
@@ -298,18 +306,15 @@ margin-left: -3%;
 }
 
 #remember-id{
- 	font-size: 11px;
+ 	font-size: 0.7em;
  	
 
  }
 
 
 
-input[type=checkbox] {
-	font-size: 12px;
-	
 
-}
+
 
 #texto-registro:hover{
 	background-color: #002171;
@@ -318,21 +323,21 @@ input[type=checkbox] {
 }
 
 #texto-registro{
-	font-size: 13px;
+	font-size: 0.95em;
 	background-color: #0d47a1;
   color: white;
-  padding: 2px 6px 2px 6px;
+  padding: 0.2% 0.6% 0.2% 0.6%;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
-border-radius: 4px;
+border-radius: 5%;
 border-color: #0d47a1; 
 
 }
 
 .forgot{
-	font-size: 11px;
+	font-size: 0.75em;
 
 
 }
@@ -340,14 +345,15 @@ border-color: #0d47a1;
 
 
 #container-usuario{
-	width: 200px;
-	height: 50px;
+	width: 40%;
+	height: 3.5em;
 	float: left;
 	margin-top: 2%;
 	
 }
 #container-psw{
-	width: 200px;
+	width: 40%;
+
 	float:left;
 	margin-top: 2%;
 
@@ -357,7 +363,7 @@ border-color: #0d47a1;
 
 #container-registro label{
 display: block;
-font-size: 13px;
+font-size: 1em;
 font-family: Roboto;
 
 
@@ -365,8 +371,8 @@ font-family: Roboto;
 }
 
 label [type="checkbox"] {
-	width: 13px;
-  height: 13px;
+	width: 1.1em;
+  height: 1.1em;
   padding: 0;
   margin:0;
   vertical-align: bottom;
@@ -403,14 +409,14 @@ label [type="checkbox"] {
 	background-color: #0d47a1; 
 	border: none;
     color: #E8EAF6;;
-    padding: 6px 10px;
+    padding: 0.6% 0.5%;
    
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;    
+    font-size: 0.9em;    
     
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 10%;
     margin-bottom: 2%;
 }
 
@@ -420,34 +426,41 @@ label [type="checkbox"] {
 	background-color: #002171;
 }
 
+input[id="enviar"]{
+	text-align: center;
+	}
+
+
 #enviar{
 	background-color: #0d47a1; /* Green */
     border: none;
     color: #E8EAF6;;
-    padding: 6px 10px;
+    padding: 0.6% 0.10%;
    
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;    
+    font-size: 0.8em;    
     
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 10%;
     margin-bottom: 2%;
+    width: 9%;
+    height: 100%;
 }
 
 #login {
 	background-color: #0d47a1; /* Green */
     border: none;
     color: #ffffff;
-    padding: 10px 28px;
+    padding: 2% 4.8%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 0.9em;
     margin-top: 4%;
     float: left;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 10%;
     margin-bottom: 2%;
 }
 
@@ -459,8 +472,8 @@ label [type="checkbox"] {
 
 body {
 	background-color: #f8fdff;
-	margin: 20px;
-	padding: 20px;
+	margin: 0.5%;
+	padding: 2em;
 	color:#000000;
 	font-family: Roboto-bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -473,14 +486,13 @@ header {
 	border-radius: 2%;
 	
     /*position: fixed; CON ESTO FIJO EL MENU ARRIBA*/
-
+    padding-bottom: 1%;
 	color:#000000;	
 	display: inline-block;
-	margin-top: -3.15%;
-	height: 100px;
+	margin-top: -3.15%;	
 	width: 106.3%;
 	margin-left: -3.15%;
-	letter-spacing: 1px;
+	letter-spacing: 0.0em;
 
 
 
