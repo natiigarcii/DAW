@@ -6,6 +6,14 @@ a:link {
     ;
     text-decoration: none;
 }
+
+
+    #container-fotos{
+        display: inline-block;
+        text-align: center;
+    }
+
+
 a:visited {
     color: #002171
     /*#536DFE*/
@@ -31,6 +39,12 @@ select {
     -moz-border-radius: 5px;
     border-radius: 5px;
     height: 29px;
+}
+
+#home{
+    width: 2px;
+    height: 2px;
+    visibility: hidden;
 }
 #label-nombre label {
     margin-top: 1.8%;
@@ -82,6 +96,15 @@ i {
     margin-top: -3em;
     font-size: 1em;
 }
+
+form{
+    margin-left: 3%;
+}
+
+form header {
+  margin: 0 0 5px 0;
+}
+
 #img-usuario {
     width: 3em;
     height: 3em;
@@ -141,8 +164,7 @@ textarea {
 #container-busqueda input[type=text] {
     width: 70%;
     margin-bottom: 1%;
-    border-radius: 5%;
-    border: 0;
+    border-radius: 5%;  
     height: 2em;
     line-height: normal;
     padding-left: 3%;
@@ -177,8 +199,7 @@ footer {
 .formulario-vertical textarea {
     padding-left: 1%;
     border-radius: 3%;
-    border: 0;
-}
+    }
 .formulario-vertical input[type=text],
 .formulario-vertical input[type=search],
 .formulario-vertical input[type=password],
@@ -188,13 +209,12 @@ footer {
     border-radius: 10%;
     width: 15em;
     height: 2em;
-    border: 0;
-}
+    }
 #container-registro input[type=password] {
     padding-left: 3%;
     border-radius: 5%;
     padding-bottom: 3.4%;
-    border: 0;
+    
     text-align: left;
     margin-top: 2.2%;
 }
@@ -202,18 +222,11 @@ footer {
     padding-left: 2%;
     border-radius: 5%;
     height: 40%;
-    border: 0;
+    
 }
 /*esto me deja modificar el placerholder de un input*/
 
-#container-busqueda input[type=text]::-webkit-input-placeholder,
-#container-registro input[type=text]::-webkit-input-placeholder,
-#container-registro input[type=password]::-webkit-input-placeholder {
-    letter-spacing: 0.11em;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 0.8em;
-    vertical-align: middle;
-}
+
 #nombre,
 #psw {
     margin-top: 2%;
@@ -357,7 +370,7 @@ input[id="enviar"] {
 }
 body {
     background-color: #f8fdff;a
-    margin: 0.5%;
+    
     padding: 2em;
     color: #000000;
     font-family: Roboto-bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -370,34 +383,38 @@ header {
     padding-bottom: 1%;
     color: #000000;
     display: inline-block;
-    margin-top: -3.15%;
-    width: 106.3%;
-    margin-left: -3.15%;
+    width: 100%;
     letter-spacing: 0.0em;
 }
 @media screen and (max-width: 1200px) {
     header {
         height: 100px;
-        width: 110%;
-        margin-left: -38px;
-        margin-top: -40px;
+        width: 100%;
+
         font-size: 0.95em;
+
+        
     }
 
     #container-busqueda input[type=text] {
     width: 40%;
     margin-bottom: 1%;
     border-radius: 5%;
-    border: 0;
+    
     height: 2em;
     line-height: normal;
     padding-left: 3%;
     margin-top: 1.5%;
 }
 
-#container-registro input[type=text], #container-registro input[type=password] {
-width: 35%;
-height: 7px;
+#container-registro input[type=text]{
+    width: 35%;
+height: 5px;
+} 
+
+#container-registro input[type=password] {
+width: 55%;
+height: 10px;
 
 }
 
@@ -408,8 +425,8 @@ height: 7px;
 #container-registro input[type=text] {
     padding-left: 2%;
     border-radius: 5%;
-    height: 40%;
-    border: 0;
+    height: 33%;
+    
 }
 
 #avanzada {
@@ -427,17 +444,18 @@ height: 7px;
 
 
 #container-usuario {
-    margin-right:  -60px;
+    
     position: absolute;
-    margin-left: 9%;
-    margin-top: 0.7%;
+    margin-left: 10%;
+    margin-top: 1%;
 
 }
 #container-psw{
-    margin-right: -60px;
-    position: absolute;
-    margin-left: 29%;
-    margin-top: 0.7%;
+    
+    
+    margin-left: 45%;
+    
+    margin-top: 2%;
 }
 
 
@@ -450,33 +468,40 @@ visibility: hidden;
 }
 
 #container-busqueda{
-    margin-left: 80px;
-    margin-right: 60%;
+    margin-left: 90px;
+    
 
 }
 
+#home{
+    height: 100px;
+width: 80px;
+    visibility: visible;
+    margin-left: 10px;
+    position: absolute;
+    }
 
-#img-logo-home {
+input {
+    &::-ms-input-placeholder {
+       color: transparent;
+       -webkit-transition: color 0.2s ease;
+       transition: color 0.2s ease;
+    }
+}
 
-height: 15%;
-width: 7%;
-margin-left: 10px;
-visibility: visible;
-position: absolute;
-
+.article, figure{
+    margin-left: 100%;
 }
 
 #login{
     position: absolute;
         padding: 0.9% 1.5%;
         margin-top: 2%;
-        margin-left: 48%;
 
 }
 
 #texto-registro{
     margin-top: 6.3%;
-    margin-left: 48%;
     position: absolute;
     padding: 0.5%;
     border-radius: 6px
@@ -486,7 +511,120 @@ position: absolute;
 #enviar {
 
     padding: 6px 8px;
-    width: 12%;
+    width: 50px;
 }
 
 }
+
+@media screen and (max-width: 719px) {
+    
+
+    #container-usuario{
+        visibility: hidden;
+    }
+
+     #container-psw{
+        visibility: hidden;
+    }
+
+    #login{
+        margin-left: -11%;
+        margin-top: 1%;
+        height:5%;
+        width: 15%;
+    }
+
+    #texto-registro{
+        margin-left: -11%;
+        height:4%;
+        width: 14%;
+        margin-top: 1%;
+        text-align: center;
+
+    
+    }
+
+
+    #img-logo{
+        visibility: hidden;
+        width: 15%;
+        margin-left: 3%;
+        margin: none;
+    }
+
+    #container-busqueda{
+        margin-left: 10%;
+        margin-top: none;
+    }
+    #enviar{
+        width: 60px;
+    }
+
+     #container-busqueda input[type=text] {
+          width: 210px;
+
+     }
+
+     #enviar{
+        margin-left: -13%;
+        margin-top: 50px;
+        height: 25px;
+        position: absolute;
+     }
+
+
+
+}
+
+@media screen and (max-width: 719px) {
+
+    #enviar{
+        margin-left: -13%;
+        margin-top: 40px;
+        height: 25px;
+        position: absolute;
+     }
+
+ #texto-registro{
+        margin-left: -20%;
+        height:3%;
+        width: 14%;
+        margin-top: 100px;
+        text-align: center;
+
+    
+
+
+
+    }
+
+
+#home{
+    height: 2px;
+width: 2px;
+    visibility: hidden;
+    margin-left: 10px;
+    position: absolute;
+    }
+
+    #login{
+       margin-left: -20%;
+        margin-top: 70px;
+        height:5%;
+        width: 15%; 
+        position: fixed;
+
+    }
+
+    #container-busqueda{
+        margin-top: -7px;
+    }
+
+    #container-registro{
+        width: 40px;
+        
+    }
+
+}
+
+

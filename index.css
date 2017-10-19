@@ -32,6 +32,12 @@ select {
     border-radius: 5px;
     height: 29px;
 }
+
+#home{
+    width: 2px;
+    height: 2px;
+    visibility: hidden;
+}
 #label-nombre label {
     margin-top: 1.8%;
 }
@@ -141,8 +147,7 @@ textarea {
 #container-busqueda input[type=text] {
     width: 70%;
     margin-bottom: 1%;
-    border-radius: 5%;
-    border: 0;
+    border-radius: 5%;  
     height: 2em;
     line-height: normal;
     padding-left: 3%;
@@ -177,8 +182,7 @@ footer {
 .formulario-vertical textarea {
     padding-left: 1%;
     border-radius: 3%;
-    border: 0;
-}
+    }
 .formulario-vertical input[type=text],
 .formulario-vertical input[type=search],
 .formulario-vertical input[type=password],
@@ -188,13 +192,12 @@ footer {
     border-radius: 10%;
     width: 15em;
     height: 2em;
-    border: 0;
-}
+    }
 #container-registro input[type=password] {
     padding-left: 3%;
     border-radius: 5%;
     padding-bottom: 3.4%;
-    border: 0;
+    
     text-align: left;
     margin-top: 2.2%;
 }
@@ -202,18 +205,11 @@ footer {
     padding-left: 2%;
     border-radius: 5%;
     height: 40%;
-    border: 0;
+    
 }
 /*esto me deja modificar el placerholder de un input*/
 
-#container-busqueda input[type=text]::-webkit-input-placeholder,
-#container-registro input[type=text]::-webkit-input-placeholder,
-#container-registro input[type=password]::-webkit-input-placeholder {
-    letter-spacing: 0.11em;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 0.8em;
-    vertical-align: middle;
-}
+
 #nombre,
 #psw {
     margin-top: 2%;
@@ -240,13 +236,14 @@ footer {
     font-size: 0.95em;
     background-color: #0d47a1;
     color: white;
-    padding: 0.2% 0.6% 0.2% 0.6%;
+    padding: 6px 10.5px 6px 10.5px;
     border-top: 1px solid #CCCCCC;
     border-right: 1px solid #333333;
     border-bottom: 1px solid #333333;
     border-left: 1px solid #CCCCCC;
-    border-radius: 5%;
+    border-radius: 5px;
     border-color: #0d47a1;
+    
 }
 .forgot {
     font-size: 0.75em;
@@ -261,6 +258,7 @@ footer {
     width: 40%;
     float: left;
     margin-top: 2%;
+
 }
 #container-registro label {
     display: block;
@@ -320,7 +318,7 @@ input[id="enviar"] {
     
     border: none;
     color: #E8EAF6;
-    ;
+    
     padding: 0.6% 0.10%;
     text-decoration: none;
     display: inline-block;
@@ -355,7 +353,7 @@ input[id="enviar"] {
 }
 body {
     background-color: #f8fdff;a
-    margin: 0.5%;
+    
     padding: 2em;
     color: #000000;
     font-family: Roboto-bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -368,19 +366,6 @@ header {
     padding-bottom: 1%;
     color: #000000;
     display: inline-block;
-    margin-top: -3.15%;
-    width: 106.3%;
-    margin-left: -3.15%;
+    width: 100%;
     letter-spacing: 0.0em;
-}
-@media screen and (max-width: 1200px) {
-    header {
-        background-color: lightblue;
-    }
-
-    #img-logo {
-    
-    display: hidden;
-}
-
 }
