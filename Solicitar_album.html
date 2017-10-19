@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" type="text/css" href="index.css" title="Estilo de la web">
-		<link rel="stylesheet" type="text/css" href="impresion.css" title="Estilo de la web imprimible">
+		<link rel="stylesheet" type="text/css" href="impresion.css"  media="print"/>
 	<link rel="stylesheet" type="text/css" href="responsive.css" title="Estilo de la web responsive">
 
 </head>
@@ -114,13 +114,13 @@
 		 		 <input type="Color" name="color" id="color"></p>
 
 
-		 	<p><label for="cantidad"> Número de copias</label>
+		 	<p><label for="cantidad">Copias</label>
 
-				<input type="number" name="cantidad" id="cantidad" min="1" max="20"></p>
-
+				<input type="number" name="cantidad" id="cantidad" min="1" max="20">
+			</p>
 		
 
-     		<p><label for="resolucion">Resolución de impresión</label> 
+     		<p><label for="resolucion">Resolución</label> 
      	 		<input type="number" name="resolucion" id="resolucion" min="150" max="900" step="150" value="150" >dpi
      		</p>
 
