@@ -6,6 +6,14 @@ a:link {
     ;
     text-decoration: none;
 }
+
+
+    #container-fotos{
+        display: inline-block;
+        text-align: center;
+    }
+
+
 a:visited {
     color: #002171
     /*#536DFE*/
@@ -536,6 +544,7 @@ input {
     
     }
 
+
     #img-logo{
         visibility: hidden;
         width: 15%;
@@ -563,9 +572,7 @@ input {
         position: absolute;
      }
 
-     ::-webkit-input-placeholder { 
-  color: pink;
-}
+
 
 }
 
