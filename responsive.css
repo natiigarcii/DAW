@@ -12,7 +12,9 @@ a:link {
         display: inline-block;
         text-align: center;
     }
-
+#label_masculino, #label_femenino{
+    margin-left: 50px;
+}
 
 a:visited {
     color: #002171
@@ -22,8 +24,14 @@ a:visited {
     text-decoration: none;
 }
 
- 
+ .formulario-vertical p{
+    
+   
+ }
 
+.formulario-vertical p{
+    font-size: 1.1em;
+}
 
 a:hover {
     color: #5472d3;
@@ -67,13 +75,14 @@ select {
     margin-top: -0.3%;
     padding-left: 0.5%;
 }
-#cabecera-fotos {
+#cabecera-fotos, #h2-registro {
 
     color: #072c66;
     font-family: Georgia;
     font-weight: bold;
     font-size: 2em;
     margin-left: 5%;
+    margin-bottom: 5%;
 }
 
  img {
@@ -381,7 +390,7 @@ input[id="enviar"] {
 }
 body {
     background-color: #f8fdff;
-     background-image: url("img/fondo.jpg");   
+       
     color: #000000;
     font-family: Roboto-bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
     max-width: 100%;

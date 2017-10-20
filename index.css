@@ -6,6 +6,16 @@ a:link {
     ;
     text-decoration: none;
 }
+
+
+    #container-fotos{
+        display: inline-block;
+        text-align: center;
+    }
+#label_masculino, #label_femenino{
+    margin-left: 50px;
+}
+
 a:visited {
     color: #002171
     /*#536DFE*/
@@ -13,6 +23,16 @@ a:visited {
     ;
     text-decoration: none;
 }
+
+ .formulario-vertical p{
+    
+   
+ }
+
+.formulario-vertical p{
+    font-size: 1.1em;
+}
+
 a:hover {
     color: #5472d3;
     text-decoration: none;
@@ -47,17 +67,25 @@ select {
 #label-titulo input {
     width: 16.5%;
 }
-#cabecera-fotos nth-child(a3 + b) {
-    margin-left: 0%;
-}
+
 #img-logo {
     width: 12%;
-    height: 16%;
+    height: 100px;
     position: absolute;
     margin-top: -0.3%;
     padding-left: 0.5%;
 }
-#cabecera-fotos {} #primera-foto {} img {
+#cabecera-fotos, #h2-registro {
+
+    color: #072c66;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 2em;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+ img {
     margin-bottom: 10%;
     width: 14.3em;
     height: 14.3em;
@@ -88,6 +116,15 @@ i {
     margin-top: -3em;
     font-size: 1em;
 }
+
+form{
+    margin-left: 3%;
+}
+
+form header {
+  margin: 0 0 5px 0;
+}
+
 #img-usuario {
     width: 3em;
     height: 3em;
@@ -352,20 +389,25 @@ input[id="enviar"] {
     background-color: #002171;
 }
 body {
-    background-color: #f8fdff;a
-    
-    padding: 2em;
+    background-color: #f8fdff;
+       
     color: #000000;
     font-family: Roboto-bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    max-width: 100%;
+     margin:0;
+    padding:0;
 }
 header {
-    background-color: #c5cae9;
+    background-color: rgba(197, 202, 233,0.9);
     border-radius: 2%;
     /*position: fixed; CON ESTO FIJO EL MENU ARRIBA*/
-    
+   
     padding-bottom: 1%;
     color: #000000;
     display: inline-block;
     width: 100%;
     letter-spacing: 0.0em;
+    
+
+
 }
