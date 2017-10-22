@@ -4,63 +4,25 @@ body{
 	font-family: 'Droid Serif', serif;
 }
 
-#container-busqueda{
-	display: block;
-	margin-left: -397px;
-	width: 700px;
-	height: 10px;
-	float: : left;
-}
-
 #container-busqueda form{
 	display: none;
 }
-
-
-#container-registro{
-	padding: 0;
+#container-logo #img-logo{
 	display: block;
-	width:700px;
-	height: 160px;
-}
-
-#remember, #remember-id{
-	margin-left: -149px;
-}
-#has-olvidado{
-	margin-left: -282px;
-}
-
-#login{
-	margin-right: 5px;
-	margin-top: -7px;
-	border: #1F4882 solid 2px;
-	padding: 0.8%;
-	
-}
-
-#registrarse-login{
-	margin-bottom: -100px;
-}
-
-#container-logo{
-	display: block;
-	width: 700px;
-	height: 50px;
 	padding: 0;
+	width: 30%;
+	height: 30%;
+	margin: auto;
 }
 
 a #logo{
 	padding: 0;
 }
 #img-logo {
-	display: inline-block;
-	width: 20%;
-	height: 10%;
-	margin-left: 275px;
-	margin-top: -30px;
+	
 }
 
+#home{display: none;}
 
 a{
 	text-decoration: none;
@@ -116,7 +78,7 @@ main article {
     border-color: #000;
 	display: inline-block;
 	margin: 5%;
-	height: 250px;
+	height: 270px;
 	width: 20%;
 	padding: 1%;
 }

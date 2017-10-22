@@ -22,15 +22,15 @@ a:hover {
 }
 
 article a img:hover{
-    border: solid #FFF 2px;
+    outline: solid #FFF 2px;
 }
 
-input:focus {
+input:focus , textarea:focus{
     border-style: solid;
     border-width: 2px;
     border-color: #0c2959;
     animation-name: blink ;
-    animation-duration: 1s ;
+    animation-duration: 1.5s ;
     animation-timing-function: step-end ;
     animation-iteration-count: infinite ;
     animation-direction: alternate ;
@@ -76,6 +76,13 @@ select {
     padding-left: 0.5%;
 }
 #cabecera-fotos {
+    display: block;
+    width: 30%;
+    margin: auto;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #0c2959;
+    background-color: #dee7f7;
     text-align: center;
     font-size: 180%;
 } 
@@ -158,9 +165,10 @@ input {
     border: 2px solid #0c2959;
 }
 textarea {
-    background-color: #c5cae9;
-    border: 1px solid #9499b7;
+    background-color: #fff;
+    border: 2px solid #0c2959;
 }
+
 #container-logo {
     float: left;
 }
@@ -217,6 +225,10 @@ th,td{
     height: 60%;
 }
 footer {
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #0c2959;
+    background-color: #dee7f7;
     font-size: 150%;
     margin-top: 8em;
 }
@@ -239,7 +251,8 @@ footer {
     }
 
 .formulario-vertical label, .formulario-avanzada label{
-    font-size: 1.3em;
+    font-size: 1.2em;
+
 }
 
 article p{
@@ -348,7 +361,7 @@ label [type="checkbox"] {
     margin-top: 2%;
 }
 .enviar-registro:hover {
-    background-color: #936F02;
+    background-color: #000;
 }
 .enviar-registro {
     background-color: #0d47a1;
